@@ -1,0 +1,22 @@
+{
+  "name": "LP",
+  "description": "PHP Framework",
+  "type": "project",
+  "keywords": [
+    "PHP","PHP Framework"
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "filp/whoops": "*",
+    "symfony/var-dumper": "^4.3",
+    "catfan/medoo": "*",
+    "twig/twig": "*",
+    "doctrine/cache": "*"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
